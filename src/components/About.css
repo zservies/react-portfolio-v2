@@ -1,0 +1,21 @@
+.about-wrapper {
+  width: 100%;
+  flex: 0 0 20%;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #E5E4E2;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.about-picture {
+  border: 1px solid black;
+  width: 100%;
+  flex: 0 0 15%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-text {
+  padding: 1em;
+}
