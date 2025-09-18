@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import CenterStage from './components/CenterStage'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <div className='app-wrapper'>
-      <div>
-        Hello, this is test content for the portfolio
-      </div>
+      <Header />
+      <CenterStage />
     </div>
   )
 }

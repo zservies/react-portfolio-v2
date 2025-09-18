@@ -1,0 +1,10 @@
+.center-stage-wrapper {
+  border: 1px solid red;
+  width: 90%; /* Controls width */
+  flex: 0 0 85%; /* Takes available height */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
